@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="utf-8">
+	<title>STEM Academy for Gifted Youth</title>
+	<meta name="description" content="The STEM Academy for Gifted Youth is a K-12 private school for gifted and talented students. The school employs an accelerated curriculum, and classes are formed according to student ability, as opposed to grade level.">
+
+	<!-- Favicons-->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/supersized.css" rel="stylesheet" >
+	<link href="css/supersized.shutter.css" rel="stylesheet" >
+	<link href="font-awesome/css/font-awesome.css" rel="stylesheet" >
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  
+  <!-- Jquery -->
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript">
+  $(function () {
+    function getRand(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+    var austDay = new Date(),
+            year = austDay.getFullYear();
+    $('#year').html(year);
+    $('#years').html(year + ' - ' + (year + 1));
+    });
+  </script>
+  <!-- Support media queries for IE8 -->
+  <script src="js/respond.min.js"></script>
+  <!-- HTML5 and CSS3-in older browsers-->
+  <script src="js/modernizr.custom.17475.js"></script>
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+  <![endif]-->
+</head>
+
+<body>
+  <!--[if !IE]><!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script><!--<![endif]--> <!-- Border radius fixed IE10-->
+
+  <section class="hidden-phone" id="slidecaption"></section><!--Slide caption.-->
+  <!--Arrow Navigation-->
+  <a class="load-item hidden-phone" id="prevslide"></a> <a class="load-item hidden-phone" id="nextslide"></a>
+
+  <div class="span5" id="container">
+    <div id="header">
+      <p id="logo"><img alt="Logo" src="img/logo.png"></p><!--Your logo here-->
+    </div>
+
+    <nav>
+      <ul class="tabs">
+        <li><a class="active" href="#section-1"><i class="icon-home icon-2x pull-left"></i><span>Home</span></a></li>
+        <li><a href="#section-2"><i class="icon-question-sign icon-2x pull-left"></i><span>About</span></a></li>
+        <li><a href="#section-3"><i class="icon-book icon-2x pull-left"></i><span>Courses</span></a></li>
+        <li class="last"><a href="#section-4"><i class="icon-usd icon-2x pull-left"></i><span>Tuition</span></a></li>
+      </ul>
+    </nav>
+
+    <ul class="tabs-content clearfix">
+      <li class="active" id="section-1">
+        <div class="span4">
+          <div class="strip-lessons">
+	          <h5>Welcome</h5>
+
+	          <p>The Academy of Science, Technology, Engineering and Mathematics (STEM) for Gifted Youth is a K-12 private school for gifted and talented students. Founded as an independent coeducational institution, the academy employs an accelerated curriculum, and classes are formed according to student ability, as opposed to grade level.</p>
+        	</div><!--End strip lessons -->
+        </div><!--End span4 -->
+      </li><!--End section1 -->
+
+      <li id="section-2">
+        <div class="span4">
+          <div class="strip-lessons">
+            <h4>Philosophy</h4>
+
+            <p>STEM Academy embraces a whole-child philosophy wherein the mental, physical, and emotional facets of a child's development are nurtured. Our mission is to provide high learning potential children with outstanding experiences in a supportive environment that: encourages personal and academic excellence; provides intellectual, physical, creative and artistic challenges; that optimize a student's potential to be citizens who contribute to the world in a significant way.</p>
+          </div><!--End strip lessons -->
+
+          <div class="strip-lessons">
+            <h4>Faculty</h4>
+
+            <p>Our unique faculty is comprised of gifted adults who are experienced teachers, subject specialists, and practitioners in their fields of expertise.</p>
+          </div><!--End strip lessons -->
+
+          <div class="strip-lessons">
+            <h4>Students</h4>
+
+            <p>The Headmaster will admit new students based on the following multiple criteria: Students must have an IQ of at least 130 or higher, review of prior school performance records and parent / child interviews.</p>
+          </div><!--End strip lessons -->
+        </div><!--End span4-->
+      </li><!--End section2 -->
+
+      <li id="section-3">
+        <div class="span4">
+          <div class="strip-lessons">
+            <h4>Curriculum</h4>
+
+            <p>Our world-class and innovative academic programs for both lower school and upper school are accelerated. All academic courses at the upper school level are considered honors courses and many are taught at the college level. (i.e. Differential Equations, Discrete Math, Advanced Chinese, Asian Literature and History) Foreign language classes begin in kindergarten and continue through high school.</p>
+
+            <div class="strip-lessons">
+              <h4>Science</h4>
+
+              <ul>
+                <li>Advanced Biology</li>
+                <li>Advanced Physical Phenomena</li>
+                <li>Anatomy and Physiology</li>
+                <li>Applied Science</li>
+                <li>Astronomy</li>
+                <li>Biology</li>
+                <li>Chemistry</li>
+                <li>Differential Phenomena</li>
+                <li>Environmental Science</li>
+                <li>Environmental Studies</li>
+                <li>Geology</li>
+                <li>Health</li>
+                <li>Instrument Analysis</li>
+                <li>Innovation and Creativity</li>
+                <li>Inventions</li>
+                <li>Mammology<br></li>
+                <li>Molecular Biology and Genetics</li>
+                <li>Paleontology</li>
+                <li>Physical Analysis</li>
+                <li>Physics I</li>
+                <li>Physics II</li>
+                <li>Psychology</li>
+                <li>Science Foundations</li>
+                <li>Science Foundations II</li>
+                <li>Science I</li>
+                <li>Science II</li>
+                <li>Science III</li>
+                <li>Science IV</li>
+                <li>Wilderness Ecology</li>
+                <li>Wilderness Pioneering</li>
+                <li>Zoology I</li>
+                <li>Zoology II</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <div class="strip-lessons">
+              <h4>Technology</h4>
+
+              <ul>
+                  <li>Algorithms I</li>
+                  <li>Algorithms II</li>
+                  <li>Algorithms III</li>
+                  <li>Big Data</li>
+                  <li>CAD/Web Design</li>
+                  <li>Cascading Style Sheets (CSS)</li>
+                  <li>Circuit analysis</li>
+                  <li>Command Line</li>
+                  <li>Compilers</li>
+                  <li>Computer Programming</li>
+                  <li>Computer Science</li>
+                  <li>Data Structures</li>
+                  <li>Electrostatics</li>
+                  <li>Git version control</li>
+                  <li>Hypertext Markup Language (HTML)</li>
+                  <li>Internet of Things</li>
+                  <li>JavaScript I</li>
+                  <li>JavaScript II</li>
+                  <li>Lego Robotics<br></li>
+                  <li>Open Source</li>
+                  <li>Problem-solving and perseverance techniques</li>
+                  <li>Problem decomposition</li>
+                  <li>Programming Abstractions</li>
+                  <li>Reverse engineering</li>
+                  <li>Semiconductor devices</li>
+                  <li>Web Development</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <div class="strip-lessons">
+              <h4>Mathematics</h4>
+
+              <ul>
+                <li>Abstract Algebra / Trigonometry</li>
+                <li>Abstract Math</li>
+                <li>Advanced Physical Mathematics</li>
+                <li>Algebra &amp; Trigonometry</li>
+                <li>Algebra I</li>
+                <li>Algebra II</li>
+                <li>Algebra II / Trigonometry</li>
+                <li>Analytical Geometry</li>
+                <li>Applied Mathematics</li>
+                <li>Calculus I</li>
+                <li>Calculus II</li>
+                <li>Calculus Applications</li>
+                <li>Chess</li>
+                <li>Differential Equations</li>
+                <li>Discrete Math</li>
+                <li>Gaming Strategies</li>
+                <li>Gaming Studies</li>
+                <li>Geometry</li>
+                <li>Logic</li>
+                <li>Math Analysis</li>
+                <li>Numerical Methods</li>
+                <li>Post Calculus</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <div class="strip-lessons">
+              <h4>Fine Arts</h4>
+
+              <ul>
+                <li>Advanced Oil Painting</li>
+                <li>Architecture</li>
+                <li>Art</li>
+                <li>Art History</li>
+                <li>Art Theory and Criticism</li>
+                <li>Band</li>
+                <li>Beginning Band</li>
+                <li>Brass Ensemble</li>
+                <li>Cartooning</li>
+                <li>Chorus</li>
+                <li>Creative Ensemble</li>
+                <li>Dance</li>
+                <li>Drama</li>
+                <li>Drawing</li>
+                <li>Improvisation</li>
+                <li>Inherit the Wind</li>
+                <li>Mechanical Drawing</li>
+                <li>Multi-medium Art<br></li>
+                <li>Music and Movement<br></li>
+                <li>Music Appreciation</li>
+                <li>Musical Theater</li>
+                <li>Music Theory</li>
+                <li>Music Theory &amp; Composition</li>
+                <li>Oil Painting I</li>
+                <li>Oil Painting II</li>
+                <li>Oil Painting III</li>
+                <li>Percussion Ensemble</li>
+                <li>Photography</li>
+                <li>Recorder<br></li>
+                <li>Sculpture</li>
+                <li>Set Design</li>
+                <li>Symphonic Band</li>
+                <li>Theater</li>
+                <li>Wind Ensemble</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <div class="strip-lessons">
+              <h4>Foreign Language</h4>
+
+              <ul>
+                <li>Chinese I</li>
+                <li>Chinese II</li>
+                <li>Chinese III</li>
+                <li>French I</li>
+                <li>French II</li>
+                <li>French III</li>
+                <li>French IV</li>
+                <li>German I</li>
+                <li>German II</li>
+                <li>German III</li>
+                <li>German IV<br></li>
+                <li>Japanese I</li>
+                <li>Japanese II</li>
+                <li>Japanese III</li>
+                <li>Japanese IV</li>
+                <li>Japanese V</li>
+                <li>Japanese VI</li>
+                <li>Japanese VII</li>
+                <li>Latin I</li>
+                <li>Latin II</li>
+                <li>Latin III</li>
+                <li>Russian I</li>
+                <li>Sign Language</li>
+                <li>Spanish I</li>
+                <li>Spanish II</li>
+                <li>Spanish III</li>
+                <li>Spanish IV</li>
+                <li>Spanish V</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <div class="strip-lessons">
+              <h4>Language Arts</h4>
+
+              <ul>
+                <li>Advanced American Literature</li>
+                <li>Advanced World Literature</li>
+                <li>American Literature</li>
+                <li>Art of Storytelling</li>
+                <li>Asian Literature</li>
+                <li>Communication Arts</li>
+                <li>Comparative Film I</li>
+                <li>Comparative Film II</li>
+                <li>Creative Writing</li>
+                <li>Cultural Studies/Literature</li>
+                <li>Debate</li>
+                <li>Early Italian Literature<br></li>
+                <li>Epic Literature</li>
+                <li>Etymology</li>
+                <li>European Literature</li>
+                <li>Film Analysis</li>
+                <li>French Literature</li>
+                <li>Grammar</li>
+                <li>Issues in Philosophy</li>
+                <li>Modern Japanese Literature</li>
+                <li>Philosophy</li>
+                <li>Power of the Pen</li>
+                <li>Public Speaking</li>
+                <li>Russian Literature</li>
+                <li>Satire</li>
+                <li>School Newspaper</li>
+                <li>Shakespearean Literature</li>
+                <li>Topics in Philosophy</li>
+                <li>20th Century European and Russian Literature</li>
+                <li>World Literature</li>
+                <li>Writing I</li>
+                <li>Writing II</li>
+                <li>Writing III</li>
+                <li>Writing Lab</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <div class="strip-lessons">
+              <h4>Social Studies</h4>
+
+              <ul>
+                <li>Advanced American History</li>
+                <li>Advanced World History</li>
+                <li>American Civil War</li>
+                <li>American History</li>
+                <li>Anthropology</li>
+                <li>Asian History</li>
+                <li>Berlin to Baghdad</li>
+                <li>Comparative Religions</li>
+                <li>Comparative World Religions</li>
+                <li>Cultural Studies/History</li>
+                <li>Current Events</li>
+                <li>Economics and Finance<br></li>
+                <li>European History</li>
+                <li>Foreign Affairs</li>
+                <li>Geography Bee</li>
+                <li>Greek Civilization</li>
+                <li>History of the 60's</li>
+                <li>History of the 70's</li>
+                <li>History of War</li>
+                <li>Law &amp; Economics</li>
+                <li>Military Strategy</li>
+                <li>Mythology</li>
+                <li>Mythology &amp; Folklore</li>
+                <li>Naval Military History</li>
+                <li>Politics</li>
+                <li>Russian Studies</li>
+                <li>Sociology of Middle Class</li>
+                <li>20th Century European and Russian History</li>
+                <li>20th Century Warfare</li>
+                <li>U.S. Government</li>
+                <li>World History</li>
+                <li>World War II</li>
+              </ul>
+            </div><!--End strip lessons -->
+
+            <h4>Physical Education</h4>
+
+            <ul>
+                <li>Aikido</li>
+                <li>Archery</li>
+                <li><a href="crossfit.html">CrossFit</a></li>
+                <li>Basketball</li>
+                <li>Boxing</li>
+                <li>Fencing</li>
+                <li>Golf</li>
+                <li>Gymnastics</li>
+                <li>Lacrosse</li>
+                <li>Rock Climbing</li>
+                <li>Rugby</li>
+                <li>SCUBA Diving</li>
+                <li>Soccer</li>
+                <li>Swimming</li>
+                <li>Table Tennis</li>
+                <li>Taekwondo</li>
+                <li>Tennis</li>
+                <li>Track</li>
+                <li>Volleyball</li>
+                <li>Weight Training</li>
+                <li>Wing chun</li>
+                <li>Wrestling</li>
+                <li>Wushu</li>
+            </ul>
+          </div><!--End span4 -->
+        </div>
+      </li><!--End section3 -->
+
+      <li id="section-4">
+        <div class="span4">
+          <div class="strip-lessons">
+            <h4><span id="years"></span> tuition</h4>
+            <p>The tuition charge for boarding students is $53,320, for day students, $44,100. In addition, there is a required medical fee of $755 for boarders and $470 for day students, and a technology fee of $465 for boarders and $315 for day students. Parents are also required to purchase a tuition refund insurance at the cost of .85% of the tuition (adjusted for any financial aid award). The actual annual cost to educate a student at the STEM Academy is $70,000 (including financial aid). The difference between the annual cost and tuition is met by income from the endowment and generous gifts from <!--alumni,--> parents, and friends.</p>
+          </div><!--End span4 -->
+        </div><!--End strip lessons -->
+      </li><!--End section4 -->
+    </ul><!-- End tabs-->
+
+    <footer>
+        <!--
+      <div class="twitter">
+        <a href="https://twitter.com/stemafgy" target="_blank">Follow on Twitter</a>
+      </div>
+
+      <div class="fb">
+        <a href="https://www.facebook.com/stemafgy" target="_blank">Follow on Facebook</a>
+      </div>
+       -->
+      <p id="copy">Copyright © <span id="year"></span></p>
+    </footer>
+  </div><!-- end span5 -->
+  <!-- FULLSCREEN -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/supersized.3.2.7.min.js"></script>
+  <script src="js/supersized.shutter.min.js"></script>
+  <script src="js/bg_images.js"></script>
+  <!-- OTHER JS -->
+  <script src="js/bootstrap.js"></script>
+  <script src="js/functions.js"></script>
+</body>
+</html>
